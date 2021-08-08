@@ -2,6 +2,10 @@
 __pycache__/
 *.py[cod]
 
+
+*/**/.ipynb_checkpoints/*/**
+.ipynb_checkpoints/
+
 # C extensions
 *.so
 
@@ -48,3 +52,7 @@ coverage.xml
 
 # Sphinx documentation
 docs/_build/
+
+*.gz
+
+data/CIFAR100/cifar-100-python/
